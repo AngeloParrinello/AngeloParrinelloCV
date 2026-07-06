@@ -1,0 +1,12 @@
+{
+  "latex-workshop.latex.recipes": [
+    { "name": "xelatex", "tools": ["xelatex"] }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "xelatex",
+      "command": "/Library/TeX/texbin/xelatex",
+      "args": ["-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"]
+    }
+  ]
+}
