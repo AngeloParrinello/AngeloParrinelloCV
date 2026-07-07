@@ -9,7 +9,11 @@
 \pdfmapfile{-fontawesome5.map}
 
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1.4cm, top=.5cm, right=1.4cm, bottom=.9cm, footskip=.5cm}
+
+% Tighten inter-section spacing to keep the CV on one page
+\renewcommand{\acvSectionTopSkip}{1.5mm}
+\renewcommand{\acvSectionContentTopSkip}{1mm}
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
@@ -43,7 +47,7 @@
 % \photo[rectangle,edge,right]{./examples/profile}
 \name{Angelo}{Parrinello}
 % \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\position{{\enskip\cdotp\enskip}Backend Software Engineer{\enskip\cdotp\enskip}}
+\position{Backend Software Engineer}
 
 %\position{{\enskip\cdotp\enskip}Software Engineer | Master’s Graduate in Engineering \& Computer Science{\enskip\cdotp\enskip}}
 
@@ -66,7 +70,7 @@
 % \extrainfo{extra information}
 
 % \quote{``A thing that I enjoy doing is working together with colleagues on interesting projects, exploring new methods and technologies."}
-\quote{``Backend Software Engineer with 3+ years building event-driven, distributed systems for fintech infrastructure. Currently building Moneyfarm's next-generation ledger platform with CQRS and Event Sourcing. Passionate about functional programming and building robust, well-tested systems."}
+\quote{``Backend Software Engineer with 3+ years across backend and distributed systems. Currently a core engineer on Moneyfarm's next-generation ledger platform (CQRS, Event Sourcing). Passionate about functional programming and building robust, well-tested systems."}
 
 
 %-------------------------------------------------------------------------------
@@ -94,8 +98,8 @@
 % \input{cv/projects.tex}
 \input{cv/skills.tex}
 \input{cv/achievements.tex}
+\input{cv/languages.tex}
 \input{cv/interests.tex}
-% \input{cv/languages.tex}
 
 \vspace*{\fill}
 %-------------------------------------------------------------------------------
